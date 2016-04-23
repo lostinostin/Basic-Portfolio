@@ -39,7 +39,7 @@ header {
 	margin-left: 10px;
 }
 
-#biography {
+.biography {
 	margin: 50px;
 }
 
@@ -129,4 +129,11 @@ p {
     border-top-width: 5px;
     border-color: #4aaaa5;
     margin: -10px;
+}
+
+#footer p {
+	text-align: center;
+	margin-right: 35px;
+	font-size: 80%;
+    font-family: 'Helvetica';
 }
