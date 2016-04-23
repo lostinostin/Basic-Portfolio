@@ -32,6 +32,7 @@ header {
 	float: right;
 	margin-right: 150px;
     margin-top: 35px;
+    letter-spacing: 6px;
 }
 
 #name {
@@ -52,7 +53,7 @@ header {
     padding-right: 30px;
     padding-top: 10px;
     font-family: 'Arial';
-    font-size: 130%;
+    font-size: 110%;
 }
 
 #signature {
@@ -115,4 +116,17 @@ p {
 
 #so {
 	margin-left: 140px;
+}
+
+#footer {
+	height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #666666;
+    width: 110%;
+    border-style: solid;
+    border-top-width: 5px;
+    border-color: #4aaaa5;
+    margin: -10px;
 }
