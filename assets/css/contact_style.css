@@ -37,25 +37,12 @@ header {
     letter-spacing: 6px;
 }
 
-#name {
+#contact {
 	margin-left: 10px;
-}
-
-.biography {
-	margin: 50px;
 }
 
 #connect {
 	margin-left: 20px;
-}
-
-.quote {
-	float: right;
-    max-width: 270px;
-    padding-right: 30px;
-    padding-top: 10px;
-    font-family: 'Arial';
-    font-size: 110%;
 }
 
 #signature {
@@ -64,11 +51,7 @@ header {
     margin-right: 50px;
 }
 
-p {
-
-}
-
-#main-bio {
+#main-contact {
 	float: left;
     width: 650px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -78,11 +61,20 @@ p {
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
+    padding:0px;
 }
 
-#biojuice {
-	    margin: 30px;
+#contactjuice {
+	margin: 30px;
+}
 
+input {
+    width: 580px;
+}
+
+textarea {
+    width: 580px;
+    height: 250px;
 }
 
 #contact-info {
