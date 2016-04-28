@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    margin: -10px -10px 0 -10px;
+    /*margin: -10px -10px 0 -10px;*/
     height: 80px;
     /*background-image: url("http://i.giphy.com/3o7WTQlb1uQtCSBVGU.gif");
     background-size: 200%;
@@ -15,6 +15,11 @@ header {
     border-color: #dddddd;
 }
 
+h2 {
+    font-family: 'Times New Roman';
+        color: #4aaaa5;
+}
+
 #container {
     width: 960px;
     padding-left: 110px;
@@ -23,11 +28,13 @@ header {
 
 #top {
     font-size: 30px;
+    font-family: 'Times New Roman';
+    color: whitesmoke;
     float: left;
     margin-left: 110px;
     margin-top: -1px;
     background-color: #4aaaa5;
-    padding: 25px 25px 20px 25px;
+    padding: 25px 25px 26px 25px;
 }
 
 #apc {
@@ -39,10 +46,12 @@ header {
 
 #contact {
     margin-left: 10px;
+    font-size: 30px;
 }
 
 #connect {
-    margin-left: 20px;
+    margin-left: 10px;
+    font-size: 25px;
 }
 
 #signature {
@@ -53,7 +62,7 @@ header {
 
 #main {
     float: left;
-    width: 650px;
+    width: 670px;
     background-color: rgba(255, 255, 255, 0.8);
     margin-top: 30px;
     margin-bottom: 30px;
@@ -71,48 +80,131 @@ header {
 div .projects {
     background-color: rgba(0, 128, 0, 0);
     height: 850px;
-    width: 590px;
+    width: 600px;
     margin-left: 18px;
 }
 
 #ttt {
-    background-color: red;
+    background-image: url("../images/gallows.jpg");
+    /* background-position: center; */
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 260px;
-    width: 260px;
+    width: 280px;
     float: left;
     margin: 10px;
 }
 
 #rpg {
-    background-color: red;
+    background-image: url("../images/rpg.png");
+    /* background-position: center; */
+    background-position-x: 50%;
+    background-position-y: -150%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 260px;
-    width: 260px;
+    width: 280px;
     float: left;
     margin: 10px;
 }
 
 #x {
-    background-color: red;
+    background-image: url("../images/trivia.jpg");
+    /* background-position: center; */
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 260px;
-    width: 260px;
+    width: 280px;
     float: left;
     margin: 10px;
 }
 
 #y{
-    background-color: red;
+    background-image: url("../images/howtogoogle.png");
+    /* background-position: center; */
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #FAFAFA;
     height: 260px;
-    width: 260px;
+    width: 280px;
     float: left;
     margin: 10px;
 }
 
 #z {
-    background-color: red;
+    background-image: url("../images/rps.png");
+    /* background-position: center; */
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 260px;
-    width: 260px;
+    width: 280px;
     float: left;
     margin: 10px;
+}
+
+#ttt_banner {
+    height: 60px;
+    background-color: #4aaaa5;
+    margin-top: 180px;
+}
+
+#rpg_banner {
+    height: 60px;
+    background-color: #4aaaa5;
+    margin-top: 180px;
+
+}
+
+#x_banner {
+    height: 60px;
+    background-color: #4aaaa5;
+    margin-top: 180px;
+}
+
+#y_banner {
+    height: 60px;
+    background-color: #4aaaa5;
+    margin-top: 180px;
+}
+
+#z_banner {
+    height: 60px;
+    background-color: #4aaaa5;
+    margin-top: 180px;
+}
+
+#ttt_banner p {
+    margin-left: 75px;
+}
+
+#rpg_banner p {
+    margin-left: 60px;
+}
+
+#x_banner p {
+    margin-left: 99px;
+} 
+
+#y_banner p {
+    margin-left: 35px;
+}
+
+#z_banner p {
+    margin-left: 60px;
+}
+
+p {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: whitesmoke;
 }
 
 /*input {
@@ -168,9 +260,11 @@ textarea {
     border-style: solid;
     border-width: 5px 0px 0px 0px;
     border-color: #4aaaa5;
-    margin: 0px -20px -20px -20px;
+    /*margin: 0px -20px -20px -20px;*/
     clear: both;
 }
+
+
 
 #footer p {
     text-align: center;
