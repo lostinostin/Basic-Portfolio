@@ -16,6 +16,11 @@ h2 {
         color: #4aaaa5;
 }
 
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
 #container {
     width: 960px;
     padding-left: 110px;
@@ -40,11 +45,6 @@ h2 {
     letter-spacing: 6px;
     color: #777777;
     font-family: sans-serif;
-}
-
-#contact {
-    margin-left: 10px;
-    font-size: 30px;
 }
 
 #connect {

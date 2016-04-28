@@ -4,7 +4,6 @@ body {
 }
 
 header {
-	    /* margin: -10px -10px 0 -10px; */
     height: 80px;
     background-color: #ffffff;
     border-style: solid;
@@ -19,10 +18,15 @@ h2 {
 
 h4 {
     background-color: #4aaaa5;
-    margin-right: 501px;
-    padding: 10px;
     font-family: sans-serif;
+    padding: 10px;
+    margin-right: 498px;
     color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
 }
 
 #submit {
@@ -57,11 +61,6 @@ p {
     letter-spacing: 6px;
     color: #777777;
     font-family: sans-serif;
-}
-
-#contact {
-	margin-left: 10px;
-    font-size: 30px;
 }
 
 #connect {
