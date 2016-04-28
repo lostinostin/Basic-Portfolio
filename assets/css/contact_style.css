@@ -1,18 +1,36 @@
 body {
-    margin:-10px;
+    margin: 0px;
     background-image: url("../images/psychedelic_pattern.png");
 }
 
 header {
-	margin: -10px 0 0 0;
-	height: 80px;
-	/*background-image: url("http://i.giphy.com/3o7WTQlb1uQtCSBVGU.gif");
-	background-size: 200%;
-	background-position: center;*/
-	background-color: #ffffff;
-	border-style: solid;
+	    /* margin: -10px -10px 0 -10px; */
+    height: 80px;
+    background-color: #ffffff;
+    border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    color: #4aaaa5;
+}
+
+h4 {
+    background-color: #4aaaa5;
+    margin-right: 501px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+#submit {
+    margin-left: 10px;
+}
+
+p {
+    font-family: sans-serif;
 }
 
 #container {
@@ -23,26 +41,32 @@ header {
 
 #top {
 	font-size: 30px;
+    font-family: 'Times New Roman';
+    color: whitesmoke;
     float: left;
     margin-left: 110px;
     margin-top: -1px;
     background-color: #4aaaa5;
-    padding: 25px 25px 20px 25px;
+    padding: 25px 25px 26px 25px;
 }
 
 #apc {
 	float: right;
-	margin-right: 150px;
+    margin-right: 150px;
     margin-top: 35px;
     letter-spacing: 6px;
+    color: #777777;
+    font-family: sans-serif;
 }
 
 #contact {
 	margin-left: 10px;
+    font-size: 30px;
 }
 
 #connect {
-	margin-left: 20px;
+	margin-left: 10px;
+    font-size: 30px;
 }
 
 #signature {
@@ -74,7 +98,7 @@ input {
 
 textarea {
     width: 580px;
-    height: 250px;
+    height: 280px;
 }
 
 #contact-info {

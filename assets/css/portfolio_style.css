@@ -4,11 +4,7 @@ body {
 }
 
 header {
-    /*margin: -10px -10px 0 -10px;*/
     height: 80px;
-    /*background-image: url("http://i.giphy.com/3o7WTQlb1uQtCSBVGU.gif");
-    background-size: 200%;
-    background-position: center;*/
     background-color: #ffffff;
     border-style: solid;
     border-width: 1px;
@@ -43,6 +39,7 @@ h2 {
     margin-top: 35px;
     letter-spacing: 6px;
     color: #777777;
+    font-family: sans-serif;
 }
 
 #contact {
@@ -52,7 +49,7 @@ h2 {
 
 #connect {
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #signature {
@@ -87,7 +84,6 @@ div .projects {
 
 #ttt {
     background-image: url("../images/gallows.jpg");
-    /* background-position: center; */
     background-position-x: 50%;
     background-position-y: 0%;
     background-size: 100%;
@@ -100,7 +96,6 @@ div .projects {
 
 #rpg {
     background-image: url("../images/rpg.png");
-    /* background-position: center; */
     background-position-x: 50%;
     background-position-y: -150%;
     background-size: 100%;
@@ -113,7 +108,6 @@ div .projects {
 
 #x {
     background-image: url("../images/trivia.jpg");
-    /* background-position: center; */
     background-position-x: 50%;
     background-position-y: 0%;
     background-size: 100%;
@@ -126,7 +120,6 @@ div .projects {
 
 #y{
     background-image: url("../images/howtogoogle.png");
-    /* background-position: center; */
     background-position-x: 50%;
     background-position-y: 0%;
     background-size: 100%;
@@ -140,7 +133,6 @@ div .projects {
 
 #z {
     background-image: url("../images/rps.png");
-    /* background-position: center; */
     background-position-x: 50%;
     background-position-y: 0%;
     background-size: 100%;
@@ -208,17 +200,9 @@ p {
     color: whitesmoke;
 }
 
-/*input {
-    width: 580px;
-}
-
-textarea {
-    width: 580px;
-    height: 250px;
-}*/
-
 #contact-info {
     float: right;
+    margin-right: -19px;
     background-color: rgba(255, 255, 255, 0.8);
     width: 270px;
     position: relative;
@@ -254,14 +238,10 @@ textarea {
 
 #footer {
     height: 50px;
-    /* bottom: 0; */
-    /* left: 0; */
     background-color: #666666;
-    /* width: 100%; */
     border-style: solid;
     border-width: 5px 0px 0px 0px;
     border-color: #4aaaa5;
-    /*margin: 0px -20px -20px -20px;*/
     clear: both;
 }
 
